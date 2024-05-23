@@ -1,0 +1,270 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+/* Navigation */
+#main-header {
+  padding: 0.6rem;
+  background-color: #032d30;
+  margin: 0;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+
+.menu-btn {
+  width: 1.75rem;
+  height: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+}
+
+.menu-btn span {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fffbf0;
+  text-decoration: none;
+  padding: 1.8rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #62c9b4;
+  transition: 0.5s;
+}
+
+#side-drawer {
+  width: 100%;
+  height: 45%;
+  background-color: #496b64;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#side-drawer header {
+  padding: 0.6rem;
+  background-color: #053c40;
+  margin: 0;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#side-drawer ul {
+  list-style: none;
+  margin-top: 1.5rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#side-drawer li {
+  margin: 0.5rem 0;
+}
+
+#side-drawer a {
+  color: #fffbf0;
+  font-size: 1.5rem;
+}
+
+#side-header a:hover {
+  color: #62c9b4;
+  transition: 0.5s;
+}
+
+/* Home */
+
+.profile {
+  text-align: center;
+  margin: 5% auto;
+  max-width: 60%;
+}
+
+/* About */
+
+#about-me {
+  padding: 5%;
+  text-align: justify;
+}
+
+#education-and-skills {
+  padding: 5%;
+}
+
+#education-and-skills div {
+  display: inline-block;
+  width: 40%;
+  padding-left: 9%;
+  vertical-align: top;
+}
+
+#education-and-skills h2 {
+  text-align: left;
+}
+
+#contact-me {
+  padding: 5%;
+  text-align: center;
+}
+
+.white {
+  color: #053c40;
+}
+
+.green {
+  background-color: #032d30;
+  color: white;
+}
+
+/* Projects */
+#projects {
+  padding: 5%;
+}
+
+#projects ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  gap: 5px;
+}
+
+.image-gallery li {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.image img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1rem;
+}
+
+.image-gallery p {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contact Me */
+
+a {
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.socials p {
+  text-align: left;
+  padding: 0 0 2rem 2.5rem;
+  margin: 0;
+}
+
+/* Form */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Quicksand", sans-serif;
+}
+
+input[type="submit"] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  float: right;
+  background-color: #032d30;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: #032d30;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #3c6f73;
+  padding: 3%;
+  text-align: left;
+}
+
+#contact-me div {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+#contact-me h2 {
+  padding-bottom: 2rem;
+}
+
+footer {
+  padding: 2rem;
+}
+footer nav ul,
+footer p {
+  text-align: center;
+}
